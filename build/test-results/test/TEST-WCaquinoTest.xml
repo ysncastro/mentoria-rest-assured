@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="WCaquinoTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-04-14T13:48:26" hostname="INF-1492" time="4.609">
+  <properties/>
+  <testcase name="Deveria verificar se as idades estÃ£o vindo na ordem correta" classname="WCaquinoTest" time="2.645"/>
+  <testcase name="Deveria verificar se os dados da Maria estÃ£o corretos" classname="WCaquinoTest" time="0.724"/>
+  <testcase name="Deveria verificar se a lista estÃ¡ trazendo 3 users" classname="WCaquinoTest" time="0.621"/>
+  <testcase name="Deveria verificar se as idades estÃ£o vindo com os valores corretos, em qualquer ordem" classname="WCaquinoTest" time="0.617"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
