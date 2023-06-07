@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 import org.hamcrest.Matchers;
 
-public class WCaquinoTest {
+class ValidacoesDeGetTest {
 
     @Test
     @DisplayName("Deveria verificar se a lista está trazendo 3 users")

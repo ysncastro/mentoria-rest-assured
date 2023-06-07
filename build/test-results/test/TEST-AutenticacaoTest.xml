@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AutenticacaoTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-06-07T01:21:29" hostname="INF-1492" time="7.729">
+  <properties/>
+  <testcase name="deveAcessarComSucesso1()" classname="AutenticacaoTest" time="2.874"/>
+  <testcase name="deveAcessarComSucesso2()" classname="AutenticacaoTest" time="1.247"/>
+  <testcase name="naoDeveAcessarSemSenha()" classname="AutenticacaoTest" time="1.317"/>
+  <testcase name="deveFazerRequisicaoComTokenJWT()" classname="AutenticacaoTest" time="2.289"/>
+  <system-out><![CDATA[HTTP/1.1 200 OK
+Server: nginx/1.12.1 (Ubuntu)
+Date: Wed, 07 Jun 2023 01:22:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 134
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"86-nnrSgF1vRV0yQzifICD8AxVilVE"
+
+{
+    "id": 2788,
+    "nome": "Wagner",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6Mjc4OH0.BJf8lPfDSnKS-czpZc40-ks4uHgh4emlXX2IV_vca9Y"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.12.1 (Ubuntu)
+Date: Wed, 07 Jun 2023 01:22:16 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 603
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"25b-txeneQPV4cvuk148zLQjvlZHDds"
+
+[
+    {
+        "id": 1740601,
+        "nome": "Conta mesmo nome",
+        "visivel": true,
+        "usuario_id": 2788
+    },
+    {
+        "id": 1740602,
+        "nome": "Conta para movimentacoes",
+        "visivel": true,
+        "usuario_id": 2788
+    },
+    {
+        "id": 1740603,
+        "nome": "Conta com movimentacao",
+        "visivel": true,
+        "usuario_id": 2788
+    },
+    {
+        "id": 1740604,
+        "nome": "Conta para saldo",
+        "visivel": true,
+        "usuario_id": 2788
+    },
+    {
+        "id": 1740605,
+        "nome": "Conta para extrato",
+        "visivel": true,
+        "usuario_id": 2788
+    },
+    {
+        "id": 1740600,
+        "nome": "Conta alterada",
+        "visivel": true,
+        "usuario_id": 2788
+    },
+    {
+        "id": 1740606,
+        "nome": "Conta inserida",
+        "visivel": true,
+        "usuario_id": 2788
+    },
+    {
+        "id": 1767215,
+        "nome": "conta qualquer",
+        "visivel": true,
+        "usuario_id": 2788
+    }
+]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

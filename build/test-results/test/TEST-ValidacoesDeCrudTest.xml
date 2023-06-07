@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ValidacoesDeCrudTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-06-07T01:21:40" hostname="INF-1492" time="1.603">
+  <properties/>
+  <testcase name="Deveria alterar um POST e validar o retorno" classname="ValidacoesDeCrudTest" time="0.407"/>
+  <testcase name="Deveria deletar um POST e validar o retorno" classname="ValidacoesDeCrudTest" time="0.615"/>
+  <testcase name="Deveria criar um POST e validar o retorno" classname="ValidacoesDeCrudTest" time="0.413"/>
+  <testcase name="Deveria buscar os POSTS e validar o retorno" classname="ValidacoesDeCrudTest" time="0.167"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
